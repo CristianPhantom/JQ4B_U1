@@ -1,0 +1,15 @@
+{
+  "name": "unidad_1",
+  "version": "1.0.0",
+  "description": "Primer ejercicio con tecologia sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sassito" : "sass -w ./SCSS/estilos.scss ./CSS/estilos.css",
+    "pugcmd" : "pug -w  ./Pug/Index.pug -o ./html -P",
+    "pug" : "pug -w  ./src/pug/Index.pug -o ./src/html -P"
+  
+  },
+  "author": "Phantom",
+  "license": "ISC"
+}
